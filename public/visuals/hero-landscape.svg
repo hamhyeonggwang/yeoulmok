@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8fbfb"/><stop offset=".52" stop-color="#e8f4f3"/><stop offset="1" stop-color="#d5e9e7"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b6d6d7"/><stop offset="1" stop-color="#6ea9b3"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="600" fill="url(#sky)"/>
+<circle cx="870" cy="125" r="92" fill="#fff" opacity=".58" filter="url(#blur)"/>
+<path d="M0 365 160 260 330 345 490 205 685 350 820 238 1035 360 1200 245V520H0Z" fill="#80aeb0" opacity=".45"/>
+<path d="M0 405 190 310 360 388 530 270 700 395 870 310 1045 405 1200 330V520H0Z" fill="#5f959b" opacity=".4"/>
+<rect y="410" width="1200" height="190" fill="url(#water)"/>
+<path d="M0 460c180-24 305 30 468 1 181-32 330-31 502 4 83 17 155 16 230 2" fill="none" stroke="#fff" stroke-opacity=".48" stroke-width="4"/>
+<path d="M0 510c220-30 350 24 530 2 202-25 349-13 670 12" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="3"/>
+</svg>
