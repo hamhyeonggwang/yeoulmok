@@ -18,7 +18,7 @@ export function Header() {
     <header className="site-header">
       <div className="container nav">
         <Link href="/" aria-label="여울목 홈" className="focus-ring">
-          <img src="/brand/logo.png" alt="여울목 정신장애인 남성 공동생활가정" className="brand-logo" />
+          <img src="/brand/logo.svg" alt="여울목 정신장애인 남성 공동생활가정" className="brand-logo" />
         </Link>
         <nav className="desktop-nav" aria-label="주요 메뉴">
           {nav.map(([label, href]) => <Link key={href} href={href} className="focus-ring">{label}</Link>)}
